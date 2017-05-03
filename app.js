@@ -3,7 +3,7 @@ var images = ["./images/furnitures/img0.jpg",
     "./images/furnitures/img3.jpg", "./images/furnitures/img4.jpg",
     "./images/cars/ferrari.jpg", "./images/cars/ford.jpg",
     "./images/cars/maclaren.jpg", "./images/cars/porshe.jpg",
-    "./images/games/fifa.jpeg", "./images/games/speed.jpg", "./images/games/spiderman.jpg"
+    "./images/games/fifa.jpg", "./images/games/speed.jpg", "./images/games/spiderman.jpg"
 ];
 
 var imagesCopy = images;
@@ -54,7 +54,7 @@ var $rightImg = $("#right-img");
 
         createNavPoint();
         navigateCarouselImg();
-        
+
         var event = {
             target: {
                 id: nextIndex = Math.floor(Math.random() * images.length)
